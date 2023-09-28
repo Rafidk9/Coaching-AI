@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Batch List</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #d5cbcb;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of Batches</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Schedule</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for batch in batch %}
+                <tr>
+                    <td>{{ batch.id }}</td>
+                    <td>{{ batch.name }}</td>
+                    <td>{{ batch.schedule }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

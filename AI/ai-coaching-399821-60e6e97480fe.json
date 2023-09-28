@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ai-coaching-399821",
+  "private_key_id": "60e6e97480fe2ddde36f452a691d2b4089640f7d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD3pR8FOL6w01i9\ntS4zqjtn1LcC/waTUEmovYn1xJhc/SYuVUc9zyKsvGj7S5InE0/2H1jW4Ymdy7/p\nNZRBMkSH95Fqy/fGPLtnYmEDJJGczForUfDkafCDZF2bNowk6OmiOIL4+E+ZcflY\nhTGKnwvkflRuhfMIvvToQu8o5Ca555kVJFYIPaCJYIzAKjicAXuYeSzqxvCUv6fe\n1CLAl+cL2B0u3vkY9FLejhFWM1PfCuIec1v37jW+otm3E5WWrVYpHLSWWsIEeJAE\nPf0LwK+CBNNzXA9tTqEdNJbJ2m/+bhfJa7VYfXY4TkdQZbJGKF2QrYdmryRe1CYE\nm2ogk6+1AgMBAAECggEACxHY+KFIONxBp709Evclj6cdBSfEMfqRSFcsnw1KKEHy\nnniWZidnq+QCJ1WB83g0B1LwZC6Rubl9Wx3XgjCOiqtg1y7F5Rka4Wyu3HaagbFK\nyIvxoiwwIZdvbbw6+H1m0CcJh7qFyFylYjUV+VXRsMWK3aPkMLxkcytmyGOmbYHb\nvZ6RiF0BoXpUkX7ARUWGKeT1rQGqLGxIm7mKzYOivaQwjSrlAogKCRMUEOsCe9MF\nK29sJEE5xQpK9vRf6IDCpbqnfa2ieoe3l2OWDbiSjV/yR3WMqkF/whZ7F1c3bu1f\nwtoNyfA6w65+2Yhq5JL7PwCW40oyXRoWxfsPe9s3QQKBgQD96canT6NaXiFF7Viu\nroPt6SfyzLUuZpATKEVolpEZCXqe+BsNVQdJgIhPjzLtlC7NZCXrbZE7DkISqHra\nG4zGseXe2f7fHgfJMkUHBFojDDRTtbsog0mv+hm5XeXT/gAmZYLGRIUxWmcx86tO\nwEUpMp6f11ubkEeYeJ+i1eHz1QKBgQD5rig7a4Yhxg53jpXJXl5cqvsZ3+hSRhcF\nv1OmtzSd7BZuPA6T3E12VC53it9ra0enoQolHC4M4st6APpxYzZOfpJw3LmNKMAG\npabdtWB+vr0sS2KVkuyEHUXX+cHx2MXLRRQXO6RQ7xhd70CqTqBTWPXgteZ2TGPt\nzCPZNp8cYQKBgQDUYlC57hEzK30lYoxFQNA1lkrF+piqQTvN6md0Pk0L5jPc+KaY\nFkFMJ+jcs2jj9IjZYCWfsTxDa3+035wzB8xO/srKBwn7UsEsd5Hpdqh2nGTAiEgO\ncRKX0djmhjYRhmpVs58ZfIL0byvWSn1GF+lBtoecJ6UGkD5yuKK+r6yaKQKBgG8B\nR+/LCTJgzLPI171UUF2gwsypKK/Ta47pljZLw3/mo75UwyJn0qSmHpaVTmmCo7Pa\nPBltoueluVM/thjNRCq3yUGWUIR6toz9/ucZKZKQGKjlxym6zZ6bKR8xclGkz6Nk\nzd7abF5zPoEcysIs/Mixh3dlR9YWdmMV3GZJC4phAoGAbfdEVE1qKKWdFGNbX8lI\nUGNjwnep2oT00YJwGnO/98LoGBPZhPbe/KHM+EKeA486KJ7BPkRKHQ8CwDXVpcqX\npE7FGIXbr+vziELnOcmmvQu9cfTdZkxHmWlSj43WugJLp9nMJ12DZO4/nouOXFGc\n4Y7dZNT1y2bPIE2C3d+4aK0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-coaching@ai-coaching-399821.iam.gserviceaccount.com",
+  "client_id": "110396828059329868452",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-coaching%40ai-coaching-399821.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

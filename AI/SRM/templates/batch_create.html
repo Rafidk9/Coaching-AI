@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Batch</title>
+</head>
+<body>
+    <h1>Create Batch</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label for="schedule">Schedule:</label>
+        <input type="text" name="schedule" required>
+        <br>
+        <input type="submit" value="Create">  <!-- Updated button label -->
+    </form>
+    <a href="{% url 'batch_list' %}">Back to Batch List</a>
+</body>
+</html>
