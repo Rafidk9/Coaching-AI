@@ -89,7 +89,7 @@ def get_recording(request):
 
 
 def homepage(request):
-    return render(request, 'homepage.html')
+    return render(request, 'index.html')
 
 
 def facebook_webhook(request):
