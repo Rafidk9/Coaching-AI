@@ -23,7 +23,7 @@ from SRM.urls import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('SRM/',include('SRM.urls')),
-    path('', views.homepage)
+    path('', views.index,name = 'index'),
 ]
 
 if settings.DEBUG:

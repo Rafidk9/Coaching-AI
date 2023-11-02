@@ -1,19 +1,40 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
     <title>Request Recordings</title>
 </head>
 <body>
     <h1>Request Recordings</h1>
     <form method="post">
         {% csrf_token %}
-        <label for="name">Name:</label>
-        <input type="text" name="name" ><br><br>
+        <label for="stud_name">Student Name:</label>
+        <input type="text" placeholder="Full Name" name="stud_name" required><br><br>
+
+        <label for="rec_name">Recording Name:</label>
+        <input type="text" name="rec_name" required><br><br>
+
+        <label for="selected_folder">Select Batch:</label>
+        <div class="radio-inputs">
+          {% for folder in available_folders %}
+          <label class="radio">
+            <input type="radio" name="selected_folder" value="{{ folder }}">
+            <span class="name">{{ folder }}</span>
+          </label>
+          {% endfor %}
+        </div>
+        
         <label for="date">Date of Class:</label>
-        <input type="date" name="date" ><br><br>
+        <input type="date" name="date"><br><br>
+
         <label for="topic">Topic of Class:</label>
-        <input type="text" name="topic" ><br><br>
+        <input type="text" name="topic"><br><br>
         <input type="submit" value="Submit">
     </form>
+    
+      <a href="{% url 'index' %}" class="button">Main Menu</a>
+    
 </body>
 </html>
+

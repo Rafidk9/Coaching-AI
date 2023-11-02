@@ -1,0 +1,241 @@
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+WARNING:django.request:Not Found: /favicon.ico
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\credentials.json\\ai-coaching-399821-60e6e97480fe.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 80, in from_filename
+    return data, from_dict(data, require=require, use_rsa_signer=use_rsa_signer)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 50, in from_dict
+    raise exceptions.MalformedError(
+google.auth.exceptions.MalformedError: Service account info was not in the expected format, missing fields token_uri, client_email.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\c\\ai-coaching-399821-60e6e97480fe.json'
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\credentials\\ai-coaching-399821-60e6e97480fe.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\credentials.json\\ai-coaching-399821-60e6e97480fe.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\c\\ai-coaching-399821-60e6e97480fe.json'
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\c\\ai-coaching-399821-60e6e97480fe.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\.json'
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\.json'
+ERROR:django.request:Internal Server Error: /SRM/get-recording/
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\django\AI\SRM\views.py", line 57, in get_recording
+    creds = service_account.Credentials.from_service_account_file(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\oauth2\service_account.py", line 260, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\google\auth\_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Admin\\django\\AI\\.json'
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\SRM\views.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '5de8-113-21-229-114.ngrok-free.app'. You may need to add '5de8-113-21-229-114.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '5de8-113-21-229-114.ngrok-free.app'. You may need to add '5de8-113-21-229-114.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '5de8-113-21-229-114.ngrok-free.app'. You may need to add '5de8-113-21-229-114.ngrok-free.app' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '5de8-113-21-229-114.ngrok-free.app'. You may need to add '5de8-113-21-229-114.ngrok-free.app' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /favicon.ico
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\AI\settings.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.security.csrf:Forbidden (Origin checking failed - https://5de8-113-21-229-114.ngrok-free.app does not match any trusted origins.): /SRM/students/create/
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /SRM/get-recording/
+ERROR:django.security.DisallowedHost:Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Admin\.virtualenvs\django-447cNeqb\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING:django.request:Bad Request: /SRM/students/
+INFO:django.utils.autoreload:C:\Users\Admin\django\AI\AI\settings.py changed, reloading.
+INFO:googleapiclient.discovery_cache:file_cache is only supported with oauth2client<4.0.0
+INFO:root:Recordings folder: []
+WARNING:root:No matching recording found.

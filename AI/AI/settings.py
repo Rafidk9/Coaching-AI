@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 os.path.join(BASE_DIR, 'static')
 ]
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 STATIC_ROOT  = os.path.join(BASE_DIR, 'static_cdn')
 
@@ -140,3 +140,9 @@ GOOGLE_API_KEY = 'AIzaSyCFhzho8ITQTph3IXEJ11cG8UZc8DTlzPE'
 GOOGLE_OAUTH2_CLIENT_ID = '148897116449-ho65dqc9futrmic67djdg90kdb72d6mb.apps.googleusercontent.com'
 GOOGLE_OAUTH2_CLIENT_SECRET = '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'
 GOOGLE_OAUTH2_REDIRECT_URI = 'http://localhost:8000/get-recording/'
+
+
+# Custom MIME type for CSS
+MIME_TYPES = {
+    '.css': 'text/css',
+}

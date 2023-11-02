@@ -1,24 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Student List</title>
-    <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #d5cbcb;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 <body>
+    <style>
+        a {
+            color: #000;
+            text-align: center;
+            
+        }
+    </style>
+    <a href="{% url 'index' %}">Main Menu</a>
     <h1>List of Students</h1>
     <table>
         <thead>
@@ -26,6 +21,8 @@
                 <th>ID</th>
                 <th>Name</th>
                 <th>City</th>
+                <th>Last Recording Date</th>
+                <th>Number of Recordings</th>
             </tr>
         </thead>
         <tbody>
@@ -34,6 +31,8 @@
                     <td>{{ student.id }}</td>
                     <td>{{ student.name }}</td>
                     <td>{{ student.city }}</td>
+                    <td>{{ student.last_recording_date }}</td>
+                    <td>{{ student.recordings_given }}</td>
                 </tr>
             {% endfor %}
         </tbody>

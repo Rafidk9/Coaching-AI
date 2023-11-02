@@ -1,0 +1,251 @@
+/* Apply styles to the entire page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the body covers the full viewport height */
+}
+
+/* Style the container for the table */
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+/* Style the header section */
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Ensure the header spans the entire viewport width */
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #2c3e50;
+  text-align: center;
+  padding: 0px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 10 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+  color: #3498db;
+}
+
+/* Style footer section */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px ;
+  font-size: 8px;
+}
+
+/* Style the student list container */
+.student-list {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 25%;
+  max-width: 800px;
+}
+
+/* Style the student table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+/* Style table headers */
+table th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style table rows */
+table tr {
+  background-color: #fff;
+}
+
+/* Style alternate rows for better readability */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table cells */
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Style student item links */
+.student-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+/* Additional CSS for the Create Student page */
+/* Style the form container */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 60%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Style form headers */
+h1 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+}
+
+/* Style form input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style the Create button */
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect to the Create button */
+input[type="submit"]:hover {
+  background-color: #007bff;
+}
+
+/* Style the "Back to Student List" link */
+a {
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Add hover effect to the link */
+a:hover {
+  color: #3498db;
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #EEE;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 300px;
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: .5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all .15s ease-in-out;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #fff;
+  font-weight: 600;
+}
+
+
+.button {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5rem;
+  padding: 0.3rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: #4c14e5;
+  cursor: pointer;
+  outline: none;
+  transition-duration: 0.35s;
+  text-align: center;
+}
+
+.div {
+  text-align: center;
+}

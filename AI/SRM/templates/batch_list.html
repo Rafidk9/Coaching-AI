@@ -1,24 +1,12 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>Batch List</title>
-    <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #d5cbcb;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}" >
 </head>
 <body>
+    <a href="{% url 'index' %}">Main Menu</a>
     <h1>List of Batches</h1>
     <table>
         <thead>

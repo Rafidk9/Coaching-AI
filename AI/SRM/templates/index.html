@@ -1,29 +1,30 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage</title>
-    <!-- Add any CSS styles or external stylesheets here -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Welcome to My Homepage</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Homepage</h1>
+        <h1>Welcome to Coaching-AI</Coaching-AI></h1>
         <nav>
             <ul>
                 <li><a href="SRM/students/">List of Students</a></li>
-                <li><a href="SRM/students/create">Create a Student</a></li>
+                <li><a href="SRM/students/create">Add a new Student</a></li>
                 <li><a href="SRM/batch">List of Batches</a></li>
+                <li><a href="SRM/batch/create">Add a new Batch</a></li>
+                <li><a href="SRM/get-recordings">Get Recordings</a></li>
             </ul>
         </nav>
     </header>
 
     <footer>
-        <p>&copy; 2023 My Homepage</p>
+    <p>&copy; 2023 My Coaching-AI</p>
     </footer>
 
     <!-- Add any JavaScript scripts here -->
-    <script src="script.js"></script>
 </body>
 </html>
