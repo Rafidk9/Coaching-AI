@@ -8,6 +8,6 @@ urlpatterns = [
     path('batch/', views.batch_list, name='batch_list'),
     path('batch/create/', views.batch_create, name='batch_create'),
     path('get-recordings/', views.get_recording, name='get-recordings'),
-    path('facebook/webhook/', views.facebook_webhook, name='facebook_webhook'),
+
  
 ]
